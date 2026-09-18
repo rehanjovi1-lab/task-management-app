@@ -1,0 +1,29 @@
+{
+  "name": "nodewave-backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.20.3",
+    "@types/pg": "^8.23.1",
+    "prisma": "7"
+  },
+  "peerDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.1",
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "dotenv": "^17.4.2",
+    "hono": "^4.13.8",
+    "pg": "^8.23.0"
+  },
+  "scripts": {
+    "postinstall": "prisma skills sync || exit 0"
+  },
+  "prisma": {
+    "seed": "bun run prisma/seed.ts"
+  }
+}
