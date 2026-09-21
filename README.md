@@ -1,10 +1,10 @@
-# 📋 Task Management System
+# Task Management System
 
 A full-stack task management web application designed for organizing, tracking, and managing daily tasks efficiently. Built with a modern tech stack featuring a decoupled architecture (Frontend & Backend).
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### **Frontend**
 * **Framework:** Next.js / React.js
@@ -20,7 +20,7 @@ A full-stack task management web application designed for organizing, tracking, 
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 * **User Authentication:** Secure Sign Up, Login, and Session handling with JWT.
 * **Task Board / Management:** 
@@ -31,9 +31,10 @@ A full-stack task management web application designed for organizing, tracking, 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 task-management-app/
 ├── backend/    # REST API server, Prisma models, and auth logic
 └── frontend/   # Next.js client application and UI components
+
